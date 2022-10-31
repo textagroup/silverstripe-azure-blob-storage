@@ -19,7 +19,8 @@
         "silverstripe/vendor-plugin": "^1.0",
         "league/flysystem-azure-blob-storage": "^3.3.0",
         "league/flysystem-cached-adapter": "^1.1.0",
-        "guzzlehttp/psr7": "^2.4"
+        "guzzlehttp/psr7": "^2.4",
+        "league/flysystem": "1.1.9"
     },
     "autoload": {
         "psr-4": {
