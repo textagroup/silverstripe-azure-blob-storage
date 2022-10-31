@@ -18,7 +18,7 @@
         "silverstripe/framework": "^4.8",
         "silverstripe/vendor-plugin": "^1.0",
         "league/flysystem-cached-adapter": "^1.1.0",
-        "league/flysystem-azure": "^1.0"
+        "league/flysystem-azure": "1.0.4"
     },
     "autoload": {
         "psr-4": {
