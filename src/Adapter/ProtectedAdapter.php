@@ -3,6 +3,7 @@
 namespace FullscreenInteractive\SilverStripe\AzureStorage\Adapter;
 
 use DateTime;
+use League\Flysystem\Config;
 use MicrosoftAzure\Storage\Blob\BlobSharedAccessSignatureHelper;
 use MicrosoftAzure\Storage\Common\Internal\Resources;
 use SilverStripe\Assets\Flysystem\ProtectedAdapter as SilverstripeProtectedAdapter;
@@ -60,6 +61,46 @@ class ProtectedAdapter extends AzureBlobStorageAdapter implements SilverstripePr
             'path'       => $path,
             'visibility' => self::VISIBILITY_PRIVATE
         ];
+    }
+
+    public function update($path, $contents, Config $config)
+    {
+    }
+
+    public function updateStream($path, $resource, Config $config)
+    {
+    }
+
+    public function rename($path, $newpath)
+    {
+    }
+
+    public function deleteDir($dirname)
+    {
+    }
+
+    public function createDir($dirname, Config $config)
+    {
+    }
+
+    public function has($path)
+    {
+    }
+
+    public function getMetadata($path)
+    {
+    }
+
+    public function getSize($path)
+    {
+    }
+
+    public function getMimetype($path)
+    {
+    }
+
+    public function getTimestamp($path)
+    {
     }
 
     /**
