@@ -17,9 +17,15 @@
     "require": {
         "silverstripe/framework": "^4.8",
         "silverstripe/vendor-plugin": "^1.0",
-        "league/flysystem-azure-blob-storage": "^3.3.0",
+        "league/flysystem-azure-blob-storage": "dev-drop-psr7 as 3.3.0",
         "league/flysystem-cached-adapter": "^1.1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/textagroup/flysystem-azure-blob-storage"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "FullscreenInteractive\\SilverStripe\\AzureStorage\\": "src/"
